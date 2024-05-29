@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+}
+@font-face {
+    font-family: hand;
+    src: url(font/handwriting.otf);
+}
+/*This code is for the top bar */
+#right{
+    margin-left:10em;
+    display: flex; flex-direction: row;
+}
+#barButton{
+    background-color: white;
+    color:black;
+    margin:1em;
+    margin-top:.5em;
+    height:50px;
+    width:100px;
+    border-radius: 20%;
+    font-size:25px;
+}
+#blackBar{
+    font-size:15px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#blackBar h1{
+    color:white;
+    margin:.5em 1em .5em 1em;
+}
+ a {
+    color:white;
+}
+
+/*This code is for the classes in the program JHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH */
+
+.box{
+    padding:7em;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+}
+.para{
+    color:rgb(200,200,200);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+.heading{
+    font-size:4em;
+    margin-top:1em;
+    margin-bottom:15px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*This code is for the top box HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH */
+#tBox{
+    background-image: url(img/library.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#formTitle{
+    font-size: 2em;
+    margin-top:0;
+    margin-bottom:0;
+}
+#formBox{
+    padding:4.5em;
+    background-color: black;
+    display:flex;
+    flex-direction: column;
+    margin-left:15em;
+    border-radius:20%;
+}
+#formBTN{
+    margin:2em 3em 0 3em;
+    border-radius: 20%;
+    background-color:rgb(50, 50,50,1);
+    color:white;
+}
+label, input {
+    display: block;
+}
+label {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*This code is for the second box of the page HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH */
+#mTitle{
+    font-size:3em;
+}
+
+#menu{
+    background-color: black;
+    margin:7em;
+    padding: 2em 0 2em 2em;
+    border-radius: 1%;
+}
+#example{
+    margin-right:7em;
+    font-size: 35px;
+}
+#pDatabase{
+    font-size:15px;
+}
+#pMulti{
+    font-size:15px;
+}
+#hData{
+    font-size: 27px;
+}
+#hMulti{
+    font-size: 27px;
+}
+#docs{
+    border:0;
+    width:30em;
+    height:35em;
+    background-image: url(img/page.png);
+    font-family:hand;
+}
+/* Third Box HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
+#holder{
+    background-color:black;
+    justify-content: left;
+    flex-direction: column;
+}
+#comics{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 0;
+}
+#comics img{
+    margin-right:1em;
+    width:270px;
+    transition:transform 1s;
+
+}
+img:hover{
+    transform: scale(1.2);
+    z-index: 0;
+}
+#bestSell{
+    padding-bottom:15px;
+}
+
+/* Footer HJHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
+hr.to{
+border: none;
+border-top:2px solid black;
+width:60%;
+margin: 0 auto 0 auto;
+}
+
+#foot{
+    color:black;
+    background-color:black;
+    padding:0;    flex-direction: column;
+    text-align: center;
+    background-image: url(img/liiberia.png);
+}
+
+.box th{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25em;
+    text-align: left;
+}
+#bottom{
+    flex-direction: column;
+    text-align: left;
+}
+
+.box td{
+    color:grey;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right:2em;
+}
+table{
+    border-spacing: 2em;
+    margin-left:auto;
+    margin-right:auto;
+}
+#social1::before{
+    content: "";
+    background-image:url(img/i.png);
+    display: inline-block;
+    width:15px;
+    height:15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right:10px;
+}
+#social2::before{
+    content: "";
+    background-image:url(img/x.png);
+    display: inline-block;
+    width:15px;
+    height:15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right:10px;}
+#social3::before{
+    content: "";
+    background-image:url(img/y.png);
+    display: inline-block;
+    width:15px;
+    height:15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right:10px;}
+#social4::before{
+    content: "";
+    background-image:url(img/f.png);
+    display: inline-block;
+    width:15px;
+    height:15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right:10px;}
+#social5::before{
+    content: "";
+    background-image:url(img/sn.png);
+    display: inline-block;
+    width:15px;
+    height:15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right:10px;
+}
